@@ -1,3 +1,8 @@
+/*begin-commonstyles library*//*!
+ * froala_editor v3.2.3 (https://www.froala.com/wysiwyg-editor)
+ * License https://froala.com/wysiwyg-editor/terms/
+ * Copyright 2014-2020 Froala Labs
+ */
 
 .fr-clearfix::after {
   clear: both;
@@ -33729,12 +33734,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 109px;
-    height: 109px;
+    width: auto;
+    margin-top: 0;
+    margin-left: 23px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -70px;
+    margin-top: -71px;
     margin-right: -13px;
   }
 
@@ -33743,16 +33749,24 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: 138px;
   }
 }
+@media (max-width: 991px) {
+  .u-header .u-image-1 {
+    height: 109px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-top: -71px;
+  }
+}
 
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 69px;
+    min-height: 57px;
   }
 
   .u-header .u-image-1 {
-    margin-top: 7px;
-    margin-left: -28px;
+    margin-top: 1px;
+    margin-left: 20px;
     width: auto;
     height: auto;
   }
@@ -33765,7 +33779,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -48px;
-    margin-right: -15px;
+    margin-right: -13px;
   }
 
   .u-header .u-social-icons-1 {
@@ -33773,7 +33787,7 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 87px;
     margin-top: -35px;
     margin-right: 83px;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 }
 .u-footer {
