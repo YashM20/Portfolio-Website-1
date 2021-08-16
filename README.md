@@ -1,6 +1,3 @@
-# Portfolio-Website-1
- second portfolio website
- 
 Screenshot 1
 Desktop View
 
