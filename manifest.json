@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "short_name": "I'm Yash Mahajan!",
     "name": "I'm Yash Mahajan!, Profile, About me, What I'm Doing, My Works, Contact Me",
     "icons": [
@@ -49,3 +50,9 @@
     ]
   }
   
+=======
+    "short_name": "Weather",
+    "name": "Weather: Do I need an umbrella?",
+    "theme_color": "#db5945"
+}
+>>>>>>> eb71523981d77c69fda0ffbfea0536476bbfd04d
